@@ -1,0 +1,55 @@
+body{
+    background-color: whitesmoke;
+}
+/* .box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: move 2s infinite alternate ,  color 2s infinite;
+}
+
+@keyframes move {
+    from{
+        left: 0;
+    }
+    to{
+        left: calc(100% - 100px);
+    }
+}
+
+@keyframes color {
+        0%{
+            background-color: red;
+        }
+        20%{
+            background-color: blue;
+        }
+        40%{
+            background-color: rgb(255, 166, 0);
+        }
+        60%{
+            background-color: pink;
+        }
+        80%{
+            background-color: green;
+        }
+        100%{
+            background-color: brown;
+        }
+} */
+
+.circle {
+    border: 25px solid grey;
+    border-top: 25px solid green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: circleAnimation 5s ease-in-out infinite;
+}
+
+@keyframes circleAnimation {
+    to {
+        transform: rotate(360deg);
+    }
+}
